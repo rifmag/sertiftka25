@@ -53,7 +53,7 @@ def main():
     st.markdown(logo, unsafe_allow_html=True)
 
     # Baca data dari file Excel
-    data = read_excel_data("datasertif.xlsx")  # Ganti dengan path file Excel Anda
+    data = read_excel_data("datasertifrkatw1.xlsx")  # Ganti dengan path file Excel Anda
 
     # Isian NIP dan OTP
     nip_input = st.text_input("Masukkan NIP/NRP:", "").strip()
